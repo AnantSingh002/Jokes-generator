@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+    margin: 0;
+    color: #fff; /* White text for contrast */
+}
+
+#container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Deeper shadow */
+    width: 80%; /* Adjust width for responsiveness */
+    max-width: 600px;
+}
+
+#head {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
+}
+
+#joke {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    padding: 0 20px; /* Add padding for better readability on smaller screens */
+}
+
+#btn {
+    background-color: #ff9800; /* Orange button */
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Button shadow */
+}
+
+#btn:hover {
+    background-color: #f57c00; /* Darker orange on hover */
+    transform: translateY(-3px); /* Slight lift on hover */
+}
+
+#btn:active {
+    transform: translateY(1px); /* Slight press effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduced shadow on press */
+}
+
